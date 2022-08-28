@@ -61,7 +61,8 @@ Git仓库目录下的文件存在 受跟踪(Tracked) 和 不受跟踪(Untracked)
 
 使用git branch查看现有分支和当前所在分支。
 
-使用git checkout (branch_name)检查分支并从当前所在分支迁移到指定分支。
+使用git checkout (branch_name)检查分支并从当前所在分支迁移到目标分支。
+（使用-b选项可创建（若目标分支不存在）并迁移到目标分支）
 
 练习：使用基本cmd命令修改任意文件并新增任意文件。
 
