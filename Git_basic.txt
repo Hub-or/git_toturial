@@ -66,3 +66,10 @@ Git仓库目录下的文件存在 受跟踪(Tracked) 和 不受跟踪(Untracked)
 
 练习：使用基本cmd命令修改任意文件并新增任意文件。
 
+
+
+使用git merge (branch_name)将目标分支合并到当前分支。
+（"Fast forward"模式）
+
+使用git branch -d (branch-name)删除目标分支。
+
