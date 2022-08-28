@@ -43,6 +43,33 @@ Git仓库目录下的文件存在 受跟踪(Tracked) 和 不受跟踪(Untracked)
 
 使用git status --short查看更简洁紧凑的文件修改状态。
 （标记含义：?? 不受跟踪的文件 A 处于仓储状态的文件 M 经过修改的文件 D 删除的文件）
+（颜色含义：绿色 已仓储，待提交 红色 未仓储）
 
 在commit命令的-m选项前添加-a以合并执行暂存和提交两个步骤。
 （只建议在对仓库内文件作微小改动时采用此操作）
+
+使用git log查看提交日志。
+
+
+
+使用git (command) --help查看特定命令的帮助，使用git help --all查看所有可执行命令。
+（使用SHIFT + G跳转到页面末尾，按q退出阅览）
+
+
+
+使用git branch (branch_name)创建新的Git分支。
+
+使用git branch查看现有分支和当前所在分支。
+
+使用git checkout (branch_name)检查分支并从当前所在分支迁移到目标分支。
+（使用-b选项可创建（若目标分支不存在）并迁移到目标分支）
+
+练习：使用基本cmd命令修改任意文件并新增任意文件。
+
+
+
+使用git merge (branch_name)将目标分支合并到当前分支。
+（"Fast forward"模式）
+
+使用git branch -d (branch-name)删除目标分支。
+
