@@ -14,6 +14,7 @@ git --version
 为全局仓库配置用户名、用户邮箱：
 git config --global user.name "user"
 git config --global user.email "email@xx.com"
+（gitconfig全局配置的保存路径：C:\Users\(username)\.gitconfig)
 
 练习：新建一个保存Git项目的文件夹，使用基本cmd命令进入该文件夹。
 

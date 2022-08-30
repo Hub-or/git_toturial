@@ -1,0 +1,24 @@
+使用与Git config配置中相同的邮箱注册Github并新建仓库。
+
+使用git remote add origin (初始URL)为本地仓库指定关联的 初始(origin) Github远程仓库。
+(此处origin为对远程仓库链接的本地自定义命名)
+
+使用git push --set-upstream origin master将本地master分支上传至初始URL并设为默认远程分支。
+
+
+
+使用Github网站提供的文本编辑功能直接编辑文件并完成文件提交。
+
+
+
+使用git fetch origin拉取远程仓库的内容变更。
+
+练习：使用git log查看远程仓库的变更日志。
+
+使用git diff (origin/master)查看本地仓库当前所在(master)分支与远程仓库(origin/master)分支的差异。
+
+练习：使用git merge将远程仓库中的指定分支合并至当前所在本地分支。
+
+使用git pull (远程仓库名)与远程仓库同步更新（合并执行fetch与merge命令）。
+
+
