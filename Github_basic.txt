@@ -37,4 +37,4 @@
 
 使用git branch -r查看所有远程分支。
 
-使用git checkout切换到目标远程分支。
+使用git checkout (远程分支名)切换到目标分支并与远程分支建立连接。
