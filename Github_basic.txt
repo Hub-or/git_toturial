@@ -43,5 +43,12 @@
 
 
 
-练习：新建任意本地分支。
+练习：新建任意分支，对本地文件做任意修改，仓储文件并提交。
 
+使用git push origin (本地分支名)将本地分支上传至Github。
+
+使用Github提供的Compare & pull request功能比对分支间变更并为更新目的留言。
+
+使用Github提供的Merge功能将Pull request合并到分支。
+
+删除本地和Github上的无用分支。
