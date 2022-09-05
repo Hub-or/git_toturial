@@ -29,3 +29,12 @@
 
 
 
+练习：使用GitHub新建Branch，对文件作任意修改并使用git pull与远程仓库同步更新。
+
+
+
+使用git branch -a查看所有本地与远程分支。
+
+使用git branch -r查看所有远程分支。
+
+使用git checkout切换到目标远程分支。
