@@ -25,3 +25,30 @@
 
 练习：在本地对文件作任意修改，使用git commit将修改提交至本地仓库并检查git状态。
 
+使用git push将本地仓库中的修改上传至远程仓库。
+
+
+
+练习：使用GitHub新建Branch，对文件作任意修改并使用git pull与远程仓库同步更新。
+
+
+
+练习：同步本地仓库与远程仓库。
+
+使用git branch -a查看所有本地与远程分支。
+
+使用git branch -r查看所有远程分支。
+
+使用git checkout (远程分支名)切换到目标分支并与远程分支建立连接。
+
+
+
+练习：新建任意分支，对本地文件做任意修改，仓储文件并提交。
+
+使用git push origin (本地分支名)将本地分支上传至Github。
+
+使用Github提供的Compare & pull request功能比对分支间变更并为更新目的留言。
+
+使用Github提供的Merge功能将Pull request合并到分支。
+
+删除本地和Github上的无用分支。
