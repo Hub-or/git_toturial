@@ -51,4 +51,7 @@
 
 使用Github提供的Merge功能将Pull request合并到分支。
 
-删除本地和Github上的无用分支。
+练习：删除本地和Github上的无用分支。
+
+
+
