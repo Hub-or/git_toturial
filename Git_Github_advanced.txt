@@ -1,0 +1,25 @@
+使用Fork拷贝GitHub上其他人的仓库
+
+
+
+使用git clone URL完整拷贝整个仓库
+
+使用git clone URL folder拷贝到指定文件夹
+
+使用git remote -v查看remotes链接设置
+
+使用git remote rename (oldname) (newname) 重命名remotes名称
+
+使用git remote --help查看帮助文档
+(git remote set-url (name) (url))
+
+使用git remote add (name) (url)增添remotes链接
+(建议将自己的仓库命名为origin，Fork的源仓库命名为upstream)
+
+
+
+练习：
+对本地文件作任意修改，commit并push到经Fork的远程仓库；向被Fork的源仓库发送Pull request。
+
+
+

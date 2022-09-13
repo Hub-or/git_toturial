@@ -4,7 +4,7 @@
 (此处origin为对远程仓库链接的本地自定义命名)
 
 使用git push --set-upstream origin master将本地master分支上传至初始URL并设为默认远程分支。
-
+(--set-upstream 可替换为 -u)
 
 
 使用Github网站提供的文本编辑功能直接编辑文件并完成文件提交。
@@ -52,6 +52,8 @@
 使用Github提供的Merge功能将Pull request合并到分支。
 
 练习：删除本地和Github上的无用分支。
+git remote show origin
+git fetch --prune
 
 
 
@@ -64,3 +66,4 @@
 
 
 
+可选：使用仓库中的文件作为页面样式和内容在Github上托管页面。
