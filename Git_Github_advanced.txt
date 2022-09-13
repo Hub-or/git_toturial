@@ -3,6 +3,7 @@
 
 
 使用git clone URL完整拷贝整个仓库
+(For private repo, use: https://username@github.com/xxx.git)
 
 使用git clone URL folder拷贝到指定文件夹
 
